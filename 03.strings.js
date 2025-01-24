@@ -16,7 +16,7 @@ console.log(string4);
  * Longitud de cadenas -> length
  */
 let string5 = 'lorem ipsum dolor sit amet';
-console.log('la cadena tiene >>> '+string5.length+ ' caracteres');
+console.log('la cadena tiene >>> '+string5.length+ ' caracteres');//-> 26
 
 /**
  * Mayusculas y minusculas
@@ -31,4 +31,4 @@ console.log(string6.toLowerCase()); //-> pasa a minusculas
 let phrase = 'The quick brown fox jumps over the lazy dog';
 console.log(phrase.substring()); //-> devuelve toda la cadena
 console.log(phrase.substring(0, 3)); //-> devuelve 'The'
-console.log(phrase.substring(4, 9)); //-> devuelve 'quick
+console.log(phrase.substring(4, 9)); //-> devuelve 'quick'
